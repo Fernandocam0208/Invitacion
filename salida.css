@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.title {
+    text-align: center;
+}
+
+.img {
+    align-items: center;
+    text-align: center;
+}
+
+.img img {
+    width: 15em;
+    height: auto;
+}
+
+.buttons{
+    align-items: center;
+    text-align: center;
+}
+
+#yesbtn{
+    width: 5em;
+    height: 2em;
+}
+
+#nobtn{
+    width: 5em;
+    height: 2em;
+}
